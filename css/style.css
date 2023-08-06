@@ -38,7 +38,19 @@
     border: none;
     padding: 1em 3rem; 
 }
+.items img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 2rem;
+}
 
+.carousel-inner{
+  display: flex !important;
+  flex-direction: row !important;  
+}
+.col {
+    margin-left: 2rem;
+}
 .user-hall-of-fame-d{
   flex-direction: column;  
 }
@@ -103,6 +115,13 @@
     justify-content: center;
     font-weight: normal;
 }
+
+/*
+---------------------------------------------
+featured
+---------------------------------------------
+*/ 
+
 
 
 /*** Navbar ***/
